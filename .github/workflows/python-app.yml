@@ -24,7 +24,7 @@ jobs:
       with:
         python-version: "3.13"
     - name: Run tests
-      run: 
+      run: |
         chmod +x ./test.sh
         ./test.sh
 
